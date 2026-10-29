@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+<br><br>
+    <h1 class="text-center">Welcome to Railway Fittings Management System</h1>
+    <br>
+    <p class="lead text-center">A professional tool for QR-based identification, quality monitoring, and AI predictions for track fittings.</p>
+    <br>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Quick Actions</h5>
+                    <a href="/add" class="btn btn-primary m-2">Add New Fitting</a>
+                    <a href="/scan" class="btn btn-success m-2">Scan QR</a>
+                    <a href="/dashboard" class="btn btn-info m-2">View Dashboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
